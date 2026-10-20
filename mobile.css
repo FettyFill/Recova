@@ -1,0 +1,60 @@
+@media (max-width: 480px) {
+  /* Fine-tune spacing and type for narrow phone screens. */
+  .hero {
+    min-height: 0;
+    padding: 42px 18px 58px;
+    gap: 28px;
+  }
+
+  .hero h1 {
+    font-size: clamp(46px, 13vw, 56px);
+    margin: 24px 0;
+  }
+
+  .hero-copy > p {
+    font-size: 15px;
+    line-height: 1.75;
+  }
+
+  .actions {
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  .hero-photo {
+    width: 100%;
+    height: clamp(260px, 92vw, 360px);
+  }
+
+  .section {
+    padding: 64px 18px;
+  }
+
+  .story-head h2,
+  .catalog-head h2,
+  .values-copy h2,
+  .contact-inner h2 {
+    font-size: clamp(36px, 10vw, 44px);
+  }
+
+  .catalog-showcase {
+    margin-bottom: 52px;
+  }
+
+  .process-img img {
+    height: auto;
+    min-height: 0;
+    aspect-ratio: 4 / 3;
+  }
+
+  .contact-card {
+    min-height: 210px;
+    padding: 28px;
+  }
+
+  footer {
+    padding-right: 18px;
+    padding-left: 18px;
+  }
+
+}
